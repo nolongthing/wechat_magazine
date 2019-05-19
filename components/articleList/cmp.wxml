@@ -1,0 +1,6 @@
+<!--components/articleList/cmp.wxml-->
+
+<view class="container">
+	<c-article  wx:for="{{articleList}}" wx:key="artId" article="{{item}}"/>
+</view>
+

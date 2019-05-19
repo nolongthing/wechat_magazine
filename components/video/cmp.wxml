@@ -1,0 +1,5 @@
+<!--components/video/cmp.wxml-->
+<view class="container">
+	<video class="video" src="{{src}}" poster="{{'http://img5.imgtn.bdimg.com/it/u=4060543606,3642835235&fm=26&gp=0.jpg'}}"></video>
+	<text class="main-title">{{mainTitle}}</text>
+</view>

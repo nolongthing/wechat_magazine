@@ -1,0 +1,35 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/list/list",
+		"pages/mark/mark"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "black"
+	},
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#000000",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/list/list",
+			"text": "目录",
+			"iconPath": "images/tab/catalog_selected.png",
+			"selectedIconPath": "images/tab/catalog.png"
+		}, {
+			"pagePath": "pages/index/index",
+			"text": "杂志",
+			"iconPath": "images/tab/index_selected.png",
+			"selectedIconPath": "images/tab/index.png"
+		}, {
+			"pagePath": "pages/mark/mark",
+			"text": "马克",
+			"iconPath": "images/tab/mark_selected.png",
+			"selectedIconPath": "images/tab/mark.png"
+		}]
+	}
+}

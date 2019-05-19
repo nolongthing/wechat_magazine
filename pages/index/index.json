@@ -1,0 +1,8 @@
+{
+	"component": true,
+	"usingComponents": {
+		"c-articleList": "/components/articleList/cmp",
+		"c-tag": "/components/tag/cmp",
+		"c-add": "/components/add/cmp"
+	}
+}

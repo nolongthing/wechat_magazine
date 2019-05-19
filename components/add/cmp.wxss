@@ -1,0 +1,12 @@
+/* components/add/cmp.wxss */
+.add{
+	display: inline-block;
+	width: 65rpx;
+	height: 65rpx;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 32rpx;
+	line-height: 65rpx;
+	text-align: center;
+	margin-left: 20rpx;
+}

@@ -1,0 +1,39 @@
+/* components/nineImg/cmp.wxss */
+
+.container{
+	width: 100%;
+}
+
+.img-box{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.image{
+	width: 220rpx;
+	height: 220rpx;
+	margin-bottom: 20rpx;
+}
+.main-title{
+	display: block;
+	letter-spacing: 3rpx;
+	color: #333;
+	font-size: 46rpx;
+	margin-left: 20rpx;
+	font-weight: 500;
+	line-height: 50rpx;
+}
+.more{
+	width: 60rpx;
+	height: 50rpx;
+	background-color: rgba(0,0,0,.6);
+	color: #fff;
+	position: absolute;
+	bottom: 110rpx;
+	right: 85rpx;
+	line-height: 50rpx;
+	text-align: center;
+	border-radius: 10rpx;
+}

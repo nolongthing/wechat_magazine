@@ -1,0 +1,18 @@
+
+<scroll-view scroll-x class="scroll-box" scroll-into-view="item{{navActive}}">
+	<text class="scroll-item {{index==navActive?'active':''}}" id="item{{index}}" 
+	bind:tap="turnPage" data-index="{{index}}" wx:for="{{scrollArr}}" wx:key="*this">{{item}}</text>
+</scroll-view>			
+<view class="recommend-box">
+	<view class="mark-title">{{date[0]+' 月 '+date[1]+' 日'}}</view>
+	<view class="recommend-title">{{recommendInfo.title}}</view>
+	<image class="recommend-img"  src="{{recommendInfo.imgSrc}}"></image>
+	<view class="tag-box">
+		<c-add/>
+		<c-tag class="tag" wx:for="{{markTypeList}}" wx:key="typeId" tag="{{item.type}}"></c-tag>
+		<c-tag class="tag" tag="•••"/>
+	</view>
+</view>		
+	
+<c-articleList class="articleList" article-list="{{articleList}}"/>
+<view class="no-more" wx:if="{{flag}}">没有更多了哟~</view>

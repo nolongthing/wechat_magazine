@@ -1,0 +1,29 @@
+<!--components/article/cmp.wxml-->
+<!-- <text>components/article/cmp.wxml</text> -->
+
+
+
+<view class="container" data-artId="{{article.artId}}" >
+	<view class="head-box">
+		<image class="avatar-img" src="{{article.mark.avatar}}"></image>
+		<text>{{article.mark.people}}</text>
+		<text>等</text>
+		<text>{{article.mark.count}}</text>
+		<text>人马克了</text>
+	</view>
+	<c-bigImg wx:if="{{article.imgArray.length == 1 && article.subHead == ''}}" img-src="{{article.imgArray[0]}}" main-title="{{article.mainTitle}}"/>
+	<c-pureText wx:elif="{{article.imgArray.length == 0 && article.video.src == undefined}}" sub-head="{{article.subHead}}" main-title="{{article.mainTitle}}"/>
+	<c-imgText wx:elif="{{article.imgArray.length == 1 && article.subHead != ''}}" sub-head="{{article.subHead}}" main-title="{{article.mainTitle}}" img-src="{{article.imgArray[0]}}"/>
+	<c-nineImg wx:elif="{{article.imgArray.length > 1}}" main-title="{{article.mainTitle}}" img-arr="{{article.imgArray}}"/>
+	<c-video wx:else src="{{article.video.src}}" main-title="{{article.mainTitle}}" poster="{{article.video.poster}}"/>
+	<view class="btn-box">
+		<c-tag tag="{{article.tag}}"/>
+		<view class="user-choose">
+			<image class="image" src="../../image/list/article/icon/Icon_more.png"></image>
+			<image class="image" src="../../image/list/article/icon/Icon_relay.png"></image>
+			
+			<!-- like标记组件预留区 -->
+			
+		</view>
+	</view>
+</view>

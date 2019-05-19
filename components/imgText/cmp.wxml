@@ -1,0 +1,13 @@
+<!--components/imgText/imgText.wxml-->
+<view class="container">
+	<view class="title-box">
+		<text class="main-title">{{mainTitle}}</text>
+		<text class="sub-head">{{subHead}}</text>
+	</view>
+	<view class="img-box">
+		<image class="image" src="{{imgSrc}}"></image>
+	</view>
+</view>
+
+
+

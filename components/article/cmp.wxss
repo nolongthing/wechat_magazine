@@ -1,0 +1,33 @@
+/* components/article/cmp.wxss */
+/* 下一步 我们需要调样式  添加标签键  底部菜单栏 分享*/
+
+.container{
+	background-color: #fff;
+	width: 700rpx;
+	margin: 30rpx auto 0;
+}
+.head-box{
+	display: block;
+	padding: 20rpx 0;
+	color: #999999;
+	font-size: 30rpx;
+}
+.avatar-img{
+	margin:0 20rpx;
+	vertical-align: middle;
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 50%;
+}
+.btn-box{
+	margin: 0 20rpx;
+	padding: 30rpx 0;
+}
+.user-choose{
+	float: right;
+}
+.image{
+	width: 50rpx;
+	height: 50rpx;
+	margin-right: 20rpx;
+}

@@ -1,0 +1,4 @@
+/* components/articleList/cmp.wxss */
+.container{
+	background-color: #eee;
+}

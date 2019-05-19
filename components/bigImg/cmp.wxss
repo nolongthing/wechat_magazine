@@ -1,0 +1,18 @@
+/* components/bigImg/cmp.wxss */
+
+.container{
+	width: 100%;
+}
+.container .img-box{
+	margin-bottom: 10rpx;
+}
+.container .image{
+	width: 100%;
+}
+.container .main-title{
+	display: block;
+	margin-left: 20rpx;
+	letter-spacing: 3rpx;
+	font-weight: 500;
+	font-size:46rpx;
+}

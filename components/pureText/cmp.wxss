@@ -1,0 +1,22 @@
+/* components/pureText/cmp.wxss */
+
+.container{
+	width: 100%;
+}
+
+.main-title{
+	display: block;
+	margin: 20rpx 20rpx;
+	letter-spacing: 3rpx;
+	color: #333;
+	font-size: 46rpx;
+	font-weight: 300;
+	line-height: 70rpx;
+}
+.sub-head{
+	color: #999;
+	font-size: 30rpx;
+	letter-spacing: 3rpx;
+	margin-bottom:20rpx;
+	margin-left: 20rpx;
+}

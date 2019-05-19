@@ -1,0 +1,79 @@
+/* pages/index/index.wxss */
+page{
+	background-color: #EEEEEE;
+}
+.scroll-box{
+	position: fixed;
+	background-color: #FFFFFF;
+	white-space: nowrap;
+	height: 100rpx;
+	top: 0;
+	z-index: 99;
+}
+
+.scroll-item{
+	/* display: inline-block; */
+	color: #666;
+	font-size: 42rpx;
+	font-weight: 500;
+	padding: 0 30rpx;
+	line-height: 100rpx;
+	/* margin:0  50rpx; */
+}
+.active{
+	color: #000000;
+}
+
+.recommend-box{
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 100rpx;
+}
+
+.mark-title{
+	position: relative;
+	font-size: 60rpx;
+	margin: 40rpx 0;
+	
+}
+.mark-title::after{
+	position: absolute;
+	content: '';
+	display: block;
+	left: 50%;
+	height: 0rpx;
+	width: 130rpx;
+	margin-top: 20rpx;
+	margin-left: -75rpx;
+	
+	border: 1rpx solid #999999;
+}
+.recommend-title{
+	margin:0 20rpx 40rpx;
+	text-align: center;
+	font-size: 30rpx;
+}
+.recommend-img{
+	width: 710rpx;
+	height: 710rpx;
+}
+.tag-box{
+	margin: 30rpx 20rpx;
+}
+.tag{
+	display: inline-block;
+	margin: 0 0 20rpx 20rpx;
+}
+.articleList{
+	display: block;
+	margin-top: 40rpx;
+}
+.no-more{
+	background-color: #EEEEEE;
+	text-align: center;
+	padding: 10rpx 0;
+	color: #333333;
+	font-size: 32rpx;
+}

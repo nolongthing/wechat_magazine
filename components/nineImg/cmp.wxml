@@ -1,0 +1,14 @@
+<!--components/nineImg/cmp.wxml-->
+<view class="container">
+	<view class="img-box">
+		<image class="image"
+		wx:for="{{imgArr}}" 
+		wx:key="*this" 
+		src="{{item}}" 
+		wx:if="{{index<9}}"
+		data-index="{{index}}"
+		bindtap="onTap"></image>
+		<view class="more" wx:if="{{imgArr.length>=9}}" bindtap="onTap">•••</view>
+	</view>
+	<text class="main-title">{{mainTitle}}</text>
+</view>
